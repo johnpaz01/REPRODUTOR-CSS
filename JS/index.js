@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Carregar músicas de um arquivo JSON
-    fetch('../media/songs.json')
+    fetch('https://johnpaz01.github.io/REPRODUTOR-CSS/media/songs.json')
         .then(response => response.json())
         .then(data => {
             songs = data;
@@ -86,6 +86,6 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function() {
     let home = document.getElementById('home');
     home.addEventListener('click', function() {
-        window.location.href = "/";
+        window.location.href = "https://johnpaz01.github.io/REPRODUTOR-CSS/";
     });
 });

@@ -2,19 +2,19 @@
     {
         "title": "A Morte do Autotune",
         "artist": " - Matuê",
-        "src": "/media/Matuê - A Morte do Autotune 💔 (320).mp3",
-        "img": "media/img-autotune.jpg"
+        "src": "https://johnpaz01.github.io/REPRODUTOR-CSS/media/morteautotune.mp3",
+        "img": "https://johnpaz01.github.io/REPRODUTOR-CSS/media/img-autotune.jpg"
     },
     {
         "title": "Poesia Acústica #6",
         "artist": " - PineappleStormTV",
-        "src": "/media/poesia6.mp3",
+        "src": "https://johnpaz01.github.io/REPRODUTOR-CSS/media/poesia6.mp3",
         "img": "media/poesia6.jpg"
     },
     {
         "title": "Caminho para El Dourado",
         "artist": " - Disney",
-        "src": "/media/eldourado.mp3",
-        "img": "media/eldourado.jpg"
+        "src": "https://johnpaz01.github.io/REPRODUTOR-CSS/media/eldourado.mp3",
+        "img": "https://johnpaz01.github.io/REPRODUTOR-CSS/media/eldourado.jpg"
     }
 ]
