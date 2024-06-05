@@ -1,0 +1,20 @@
+[
+    {
+        "title": "A Morte do Autotune",
+        "artist": " - Matuê",
+        "src": "/media/Matuê - A Morte do Autotune 💔 (320).mp3",
+        "img": "media/img-autotune.jpg"
+    },
+    {
+        "title": "Poesia Acústica #6",
+        "artist": " - PineappleStormTV",
+        "src": "/media/poesia6.mp3",
+        "img": "media/poesia6.jpg"
+    },
+    {
+        "title": "Caminho para El Dourado",
+        "artist": " - Disney",
+        "src": "/media/eldourado.mp3",
+        "img": "media/eldourado.jpg"
+    }
+]
