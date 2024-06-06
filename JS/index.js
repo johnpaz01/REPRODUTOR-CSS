@@ -7,8 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let progress = document.getElementById('progress');
     let songTitle = document.getElementById('song-title');
     let artist = document.getElementById('artist');
-  
-
+    let home = document.getElementById('home');
     
     let songs = [];
     let currentSongIndex = 0;
@@ -25,7 +24,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Carregar músicas de um arquivo JSON
     fetch('https://johnpaz01.github.io/REPRODUTOR-CSS/media/songs.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erro ao carregar o arquivo JSON');
+            }
+            return response.json();
+        })
         .then(data => {
             songs = data;
             // Carrega a música inicial
@@ -80,11 +84,8 @@ document.addEventListener("DOMContentLoaded", function() {
         play.classList.add("fa-pause");
         play.classList.remove("fa-play");
     });
-});
 
-
-document.addEventListener("DOMContentLoaded", function() {
-    let home = document.getElementById('home');
+    // Função para retornar à página inicial
     home.addEventListener('click', function() {
         window.location.href = "https://johnpaz01.github.io/REPRODUTOR-CSS/";
     });
